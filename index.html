@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Chemical Romance - Fanpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background-color: #222;
+            padding: 30px;
+        }
+        header img {
+            width: 200px;
+        }
+        nav {
+            background-color: #990000;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .banner {
+            background-image: url('https://source.unsplash.com/1600x900/?concert,rock');
+            background-size: cover;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: bold;
+            text-shadow: 2px 2px 6px #000;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .about, .news-section {
+            background-color: #222;
+            padding: 25px;
+            margin: 20px;
+            border-radius: 12px;
+            width: 80%;
+        }
+        .news {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .news article {
+            background-color: #333;
+            padding: 20px;
+            width: 280px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #222;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .news {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/My_Chemical_Romance_logo.png" alt="MCR Logo">
+    </header>
+    <div class="banner">Welcome to the Black Parade</div>
+    <div class="content">
+        <div class="about">
+            <h2>Sobre a Banda</h2>
+            <p>My Chemical Romance é uma banda de rock formada em 2001, conhecida por seu som único e letras emocionantes.</p>
+        </div>
+        <div class="news-section">
+            <h2>Últimas Notícias</h2>
+            <div class="news">
+                <article>
+                    <h3>Turnê Mundial</h3>
+                    <p>A banda anunciou novas datas para a turnê de retorno!</p>
+                </article>
+                <article>
+                    <h3>Reedição de Álbum</h3>
+                    <p>The Black Parade será relançado com faixas inéditas.</p>
+                </article>
+                <article>
+                    <h3>Entrevista Exclusiva</h3>
+                    <p>Gerard Way fala sobre o futuro da banda em uma nova entrevista.</p>
+                </article>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 My Chemical Romance Fanpage - Todos os direitos reservados
+    </footer>
+</body>
+</html>
