@@ -1,45 +1,134 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Chemical Romance - Fanpage</title>
-    <link rel="stylesheet" href="styles.css"
+    <title>My Chemical Romance - MySpace Style</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background: black;
+            color: white;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+        }
+        .header-bar {
+            background: red;
+            padding: 5px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .content-box {
+            width: 90%;
+            max-width: 800px;
+            background: black;
+            padding: 15px;
+            border: 3px solid red;
+            margin-top: 10px;
+            text-align: left;
+            box-shadow: 4px 4px 0 red;
+        }
+        .title-box {
+            background: red;
+            color: black;
+            padding: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background: red;
+            padding: 10px;
+            border-bottom: 3px solid black;
+        }
+        .profile-header h1 {
+            font-size: 26px;
+            font-weight: bold;
+            background: black;
+            color: red;
+            padding: 5px 10px;
+            display: inline-block;
+            box-shadow: 4px 4px 0 white;
+        }
+        .music-player {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background: red;
+            border: 3px solid black;
+            box-shadow: 4px 4px 0 white;
+        }
+        footer {
+            background: red;
+            padding: 10px;
+            margin-top: 20px;
+            border-top: 3px solid black;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <img src="IMG/my chemical romance logo.png" alt="MCR Logo">
-        <P><i>Conheça a banda!!!</i></P>
-    </header>
-
-    <div class="banner">Welcome to the Black Parade</div>
-    <div class="content">
-        <div class="about">
-            <h2>Sobre a Banda</h2>
-            <p>My Chemical Romance é uma banda americana de rock originária de Newark, Nova Jérsia. A formação atual inclui o vocalista principal Gerard Way, o guitarrista principal Ray Toro, o guitarrista rítmico Frank Iero e o baixista Mikey Way</p>
-            <h2>Periodo de Atividade</h2>
-            <p>A banda esta em periodo de atividade desde 2001, tiveram uma pequena separação durante um tempo para cada membro focar em sua vida pessoal, a banda voltou aos palcos em 2019</p>
+    <div class="header-bar">https://MCRmyspace.com</div>
+    
+    <div class="profile-header">
+        <h1>My Chemical Romance 💀</h1>
+    </div>
+    
+    <div class="container">
+        <div class="content-box">
+            <div class="title-box">Sobre a Banda</div>
+            <p>My Chemical Romance (MCR) é uma das bandas mais icônicas do emo e rock alternativo. Formada em 2001, a banda conquistou milhões de fãs com seus álbuns emocionantes e performances marcantes.</p>
         </div>
-        <div class="news-section">
-            <h2>Últimas Notícias</h2>
-            <div class="news">
-                <article>
-                    <h3>Turnê Mundial</h3>
-                    <p>A banda anunciou novas datas para a turnê de retorno!</p>
-                </article>
-                <article>
-                    <h3>Reedição de Álbum</h3>
-                    <p>The Black Parade será relançado com faixas inéditas.</p>
-                </article>
-                <article>
-                    <h3>Entrevista Exclusiva</h3>
-                    <p>Gerard Way fala sobre o futuro da banda em uma nova entrevista.</p>
-                </article>
-            </div>
+
+        <div class="content-box">
+            <div class="title-box">Discografia</div>
+            <ul>
+                <li>2002 - I Brought You My Bullets, You Brought Me Your Love</li>
+                <li>2004 - Three Cheers for Sweet Revenge</li>
+                <li>2006 - The Black Parade</li>
+                <li>2010 - Danger Days: The True Lives of the Fabulous Killjoys</li>
+            </ul>
+        </div>
+
+        <div class="content-box">
+            <div class="title-box">Notícias Recentes</div>
+            <p>🚀 MCR recentemente anunciou novas músicas e uma turnê mundial! A banda está mais ativa do que nunca.</p>
+        </div>
+
+        <div class="content-box">
+            <div class="title-box">Próximos Shows</div>
+            <ul>
+                <li>📍 São Paulo, BR - 15 de Julho</li>
+                <li>📍 Nova York, USA - 20 de Agosto</li>
+                <li>📍 Londres, UK - 5 de Setembro</li>
+            </ul>
         </div>
     </div>
+
+    <div class="music-player">
+        <p>🎵 Agora tocando: My Chemical Romance - Helena 🎵</p>
+        <audio controls autoplay>
+            <source src="helena.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
+        </audio>
+    </div>
+
     <footer>
-        &copy; 2025 My Chemical Romance Fanpage - Todos os direitos reservados
+        <p>💀 My Chemical Romance - Welcome to the Black Parade 💀</p>
     </footer>
 </body>
 </html>
