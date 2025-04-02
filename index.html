@@ -6,92 +6,28 @@
     <title>My Chemical Romance - MySpace Style</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <style>
-        body {
-            background: black;
-            color: white;
-            font-family: 'Courier New', monospace;
-            text-align: center;
-        }
-        .header-bar {
-            background: red;
-            padding: 5px;
-            text-align: center;
-            font-size: 14px;
-            font-weight: bold;
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-        }
-        .content-box {
-            width: 90%;
-            max-width: 800px;
-            background: black;
-            padding: 15px;
-            border: 3px solid red;
-            margin-top: 10px;
-            text-align: left;
-            box-shadow: 4px 4px 0 red;
-        }
-        .title-box {
-            background: red;
-            color: black;
-            padding: 5px;
-            font-weight: bold;
-            text-transform: uppercase;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        .profile-header {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            background: red;
-            padding: 10px;
-            border-bottom: 3px solid black;
-        }
-        .profile-header h1 {
-            font-size: 26px;
-            font-weight: bold;
-            background: black;
-            color: red;
-            padding: 5px 10px;
-            display: inline-block;
-            box-shadow: 4px 4px 0 white;
-        }
-        .music-player {
-            text-align: center;
-            margin-top: 20px;
-            padding: 10px;
-            background: red;
-            border: 3px solid black;
-            box-shadow: 4px 4px 0 white;
-        }
-        footer {
-            background: red;
-            padding: 10px;
-            margin-top: 20px;
-            border-top: 3px solid black;
-            color: black;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="header-bar">https://MCRmyspace.com</div>
-    
-    <div class="profile-header">
-        <h1>My Chemical Romance 💀</h1>
-    </div>
-    
+
     <div class="container">
         <div class="content-box">
             <div class="title-box">Sobre a Banda</div>
-            <p>My Chemical Romance (MCR) é uma das bandas mais icônicas do emo e rock alternativo. Formada em 2001, a banda conquistou milhões de fãs com seus álbuns emocionantes e performances marcantes.</p>
+            <div style="display: flex; align-items: center;">
+                <img src="IMG/my chemical romance logo.png" alt="Logo da Banda" style="width: 120px; height: 80px; border-radius: 40%; margin-right: 10px;">
+                <p>My Chemical Romance é uma banda americana de rock originária de Newark, Nova Jérsia.</p>
+            </div>
+            <p> A formação atual inclui o vocalista principal Gerard Way, o guitarrista principal Ray Toro, o guitarrista rítmico Frank Iero e o baixista Mikey Way.</p>
+    
+            <div class="now-playing">
+                🎵 Agora tocando: My Chemical Romance - Helena 🎵
+
+                <center><audio controls autoplay>
+                    <source src="helena.mp3" type="audio/mpeg">
+                    Seu navegador não suporta áudio.
+                </audio></center>
+            </div>
         </div>
 
         <div class="content-box">
@@ -102,8 +38,25 @@
                 <li>2006 - The Black Parade</li>
                 <li>2010 - Danger Days: The True Lives of the Fabulous Killjoys</li>
             </ul>
+            <div class="album-covers">
+                <div class="album-cover">
+                    <img src="album1.jpg" alt="I Brought You My Bullets, You Brought Me Your Love">
+                    <p>I Brought You My Bullets</p>
+                </div>
+                <div class="album-cover">
+                    <img src="album2.jpg" alt="Three Cheers for Sweet Revenge">
+                    <p>Three Cheers</p>
+                </div>
+                <div class="album-cover">
+                    <img src="album3.jpg" alt="The Black Parade">
+                    <p>The Black Parade</p>
+                </div>
+                <div class="album-cover">
+                    <img src="album4.jpg" alt="Danger Days">
+                    <p>Danger Days</p>
+                </div>
+            </div>
         </div>
-
         <div class="content-box">
             <div class="title-box">Notícias Recentes</div>
             <p>🚀 MCR recentemente anunciou novas músicas e uma turnê mundial! A banda está mais ativa do que nunca.</p>
@@ -117,14 +70,6 @@
                 <li>📍 Londres, UK - 5 de Setembro</li>
             </ul>
         </div>
-    </div>
-
-    <div class="music-player">
-        <p>🎵 Agora tocando: My Chemical Romance - Helena 🎵</p>
-        <audio controls autoplay>
-            <source src="helena.mp3" type="audio/mpeg">
-            Seu navegador não suporta áudio.
-        </audio>
     </div>
 
     <footer>
