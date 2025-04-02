@@ -97,3 +97,35 @@ footer {
     border: 3px solid black;
     box-shadow: 4px 4px 0 white;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .content-box {
+        padding: 10px;
+    }
+
+    .album-covers {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .album-cover img {
+        width: 150px; 
+    }
+
+    .header-bar {
+        font-size: 14px; 
+        text-align: center;
+        padding: 10px;
+    }
+
+    .now-playing audio {
+        width: 100%; 
+
+    ul {
+        padding-left: 20px; 
+    }
+}
