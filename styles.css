@@ -64,7 +64,9 @@ body {
     justify-content: center;
 }
 .album-cover {
+    margin: 30px;
     width: 60px;
+    text-align: center;
     transition: transform 0.2s;
 }
 .album-cover:hover {
